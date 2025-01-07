@@ -1,51 +1,36 @@
-# Module 03 Mini-Project: Rock, Paper, Scissors
+# Rock, Paper, Scissors 
 
-In this activity, you will work with a group to build a game using only JavaScript.
+A simple web-based Rock Paper Scissors game where users can play against the computer.
 
-## Instructions
+## Table of Contents
 
-The completed application should meet the following criteria:
+1. [Description](#description)
+2. [How to Play](#how-to-play)
+3. [Installation](#installation)
+4. [Technologies Used](#technologies-used)
+5. [Contributing](#contributing)
+6. [License](#license)
 
-* As a user, I want to play Rock, Paper, Scissors against an automated opponent.
+## Description
 
-* As a user, I can enter R, P, or S to signify my choice of rock, paper, or scissors.
+This is an interactive Rock Paper Scissors game built with HTML, CSS, and JavaScript. Users can click on one of three buttons—Rock 🪨, Paper 📄, or Scissors ✂️—to play against the computer. The game will display the results of each round. 
 
-* As a user, I expect the computer to choose R, P, or S in return.
+## How to Play
 
-* As a user, I want to be prompted when I enter an invalid choice.
+1. **Rock 🪨** beats **Scissors ✂️**.
+2. **Scissors ✂️** beats **Paper 📄**.
+3. **Paper 📄** beats **Rock 🪨**.
+4. If both the player and the computer choose the same item, it’s a tie.
 
-* As a user, I want the option to play again whether I win or lose.
+### Gameplay
+- Click on one of the buttons (Rock, Paper, or Scissors).
+- The game will then display your choice, the computer's choice, and the outcome of the round (win, lose, or tie).
+- The game keeps track of your wins, losses, and ties.
+- You can also reset the game. 
 
-* As a user, I want to see my total wins, ties, and losses after I have finished playing.
+## Installation
 
-* As a user, I want to see how many times I chose each option after I have finished playing.
-
-### Specifications
-
-* Must use the `alert()`, `confirm()`, and `prompt()` methods to collect user input and display information to the user.
-
-* The computer's selection must be random to ensure a fair game.
-
-## 💡 Notes
-
-Refer to the documentation:
-
-* [MDN Web Docs on window.alert()](https://developer.mozilla.org/en-US/docs/Web/API/Window/alert)
-
-* [MDN Web Docs on window.confirm()](https://developer.mozilla.org/en-US/docs/Web/API/Window/confirm)
-
-* [MDN Web Docs on window.prompt()](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt)
-
-* [MDN Web Docs on Math](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
-
-## 🏆 Bonus
-
-If you have completed this activity, work through the following challenge with your group to further your knowledge:
-
-* How can you customize the appearance of the `alert()`, `confirm()`, and `prompt()` dialog boxes?
-
-Use [Google](https://www.google.com) or another search engine to research this.
-
----
-
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+1. Clone or download the repository to your local machine:
+   
+   ```bash
+   git clone https://github.com/mbauer99621/Rock-Paper-Scissors.git
